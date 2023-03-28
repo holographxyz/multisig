@@ -12,3 +12,6 @@ Open browser console window:
 - Firefox -> righ-click on page, select "Inspect", switch to "console" tab
 
 Enter the text from the [console input](console_input.js) file.
+
+### Google Sheets
+There is also a private [spreadsheet](https://docs.google.com/spreadsheets/d/1DC2oWERbxKXysXBBlSUCK6GmqjEIvEkv9AtXq6YSAn0) that tracks all of the multisig data. Please note, access to this document is only for members of the [holograph.xyz](https://holograph.xyz) organization.
