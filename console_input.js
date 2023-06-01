@@ -172,6 +172,23 @@ localStorage.setItem('SAFE_v2__addedSafes', JSON.stringify({
 			"threshold": 3,
 			"ethBalance": "0"
 		}
+	},
+	"42161": {
+		"0x360D1B8c803374aa64E6efc8CFb069993aDF7F11": {
+			"owners": [{
+				"value": "0x92d10327bb9b577704fC7Fd632a680E889b67827"
+			}, {
+				"value": "0x9b8FF2eAEC61d225D5EE76AeaDa79980ad0C2A8c"
+			}, {
+				"value": "0x05439df4FdE744533f006815d79418c8f9C18c24"
+			}, {
+				"value": "0xa198FA5db682a2A828A90b42D3Cd938DAcc01ADE"
+			}, {
+				"value": "0xe5DD2E4B4B82a25c11535872d16F1ec95C9A3C48"
+			}],
+			"threshold": 3,
+			"ethBalance": "0"
+		}
 	}
 }));
 localStorage.setItem('SAFE_v2__addressBook', JSON.stringify({
@@ -228,6 +245,16 @@ localStorage.setItem('SAFE_v2__addressBook', JSON.stringify({
 	},
 	"56": {
 		"0x38F8e3aF2F385B871011CDdFE16099e64846C420": "BSC Protocol Management",
+		"0x0a806a225Bd19321Ea9e9CCc6782381d1c50a8F6": "Jeff",
+		"0xe5DD2E4B4B82a25c11535872d16F1ec95C9A3C48": "Jason",
+		"0xa198FA5db682a2A828A90b42D3Cd938DAcc01ADE": "Vitto",
+		"0x9b8FF2eAEC61d225D5EE76AeaDa79980ad0C2A8c": "Angello",
+		"0x05439df4FdE744533f006815d79418c8f9C18c24": "Alexander",
+		"0x3a6E8E08F18d48d7057d5930Efe569870bD8D699": "Jeremy",
+		"0x92d10327bb9b577704fC7Fd632a680E889b67827": "Eoin"
+	},
+	"42161": {
+		"0x360D1B8c803374aa64E6efc8CFb069993aDF7F11": "Arbitrum Protocol Management",
 		"0x0a806a225Bd19321Ea9e9CCc6782381d1c50a8F6": "Jeff",
 		"0xe5DD2E4B4B82a25c11535872d16F1ec95C9A3C48": "Jason",
 		"0xa198FA5db682a2A828A90b42D3Cd938DAcc01ADE": "Vitto",
