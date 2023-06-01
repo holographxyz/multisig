@@ -105,6 +105,23 @@ localStorage.setItem('SAFE_v2__addedSafes', JSON.stringify({
 			"ethBalance": "9.998312877273090882"
 		}
 	},
+	"10": {
+		"0xa2D6193763A9B327Db7c74C766713927745f2a4c": {
+			"owners": [{
+				"value": "0x92d10327bb9b577704fC7Fd632a680E889b67827"
+			}, {
+				"value": "0x9b8FF2eAEC61d225D5EE76AeaDa79980ad0C2A8c"
+			}, {
+				"value": "0x05439df4FdE744533f006815d79418c8f9C18c24"
+			}, {
+				"value": "0xa198FA5db682a2A828A90b42D3Cd938DAcc01ADE"
+			}, {
+				"value": "0xe5DD2E4B4B82a25c11535872d16F1ec95C9A3C48"
+			}],
+			"threshold": 3,
+			"ethBalance": "0"
+		}
+	},
 	"137": {
 		"0xCD2Ec32814f28622533ffcc9131F0D7B2c2CF038": {
 			"owners": [{
@@ -139,23 +156,6 @@ localStorage.setItem('SAFE_v2__addedSafes', JSON.stringify({
 			"ethBalance": "0"
 		}
 	},
-	"42161": {
-		"0x360D1B8c803374aa64E6efc8CFb069993aDF7F11": {
-			"owners": [{
-				"value": "0x92d10327bb9b577704fC7Fd632a680E889b67827"
-			}, {
-				"value": "0x9b8FF2eAEC61d225D5EE76AeaDa79980ad0C2A8c"
-			}, {
-				"value": "0x05439df4FdE744533f006815d79418c8f9C18c24"
-			}, {
-				"value": "0xa198FA5db682a2A828A90b42D3Cd938DAcc01ADE"
-			}, {
-				"value": "0xe5DD2E4B4B82a25c11535872d16F1ec95C9A3C48"
-			}],
-			"threshold": 3,
-			"ethBalance": "0"
-		}
-	},
 	"56": {
 		"0x38F8e3aF2F385B871011CDdFE16099e64846C420": {
 			"owners": [{
@@ -168,6 +168,23 @@ localStorage.setItem('SAFE_v2__addedSafes', JSON.stringify({
 				"value": "0xa198FA5db682a2A828A90b42D3Cd938DAcc01ADE"
 			}, {
 				"value": "0x9b8FF2eAEC61d225D5EE76AeaDa79980ad0C2A8c"
+			}],
+			"threshold": 3,
+			"ethBalance": "0"
+		}
+	},
+	"42161": {
+		"0x360D1B8c803374aa64E6efc8CFb069993aDF7F11": {
+			"owners": [{
+				"value": "0x92d10327bb9b577704fC7Fd632a680E889b67827"
+			}, {
+				"value": "0x9b8FF2eAEC61d225D5EE76AeaDa79980ad0C2A8c"
+			}, {
+				"value": "0x05439df4FdE744533f006815d79418c8f9C18c24"
+			}, {
+				"value": "0xa198FA5db682a2A828A90b42D3Cd938DAcc01ADE"
+			}, {
+				"value": "0xe5DD2E4B4B82a25c11535872d16F1ec95C9A3C48"
 			}],
 			"threshold": 3,
 			"ethBalance": "0"
@@ -196,6 +213,16 @@ localStorage.setItem('SAFE_v2__addressBook', JSON.stringify({
 		"0xD17e8cEe2EC7fEE30e9F9ECB82EaB918659872AF": "Angello TESTNET",
 		"0x1eF43B825f6D1c3BfA93B3951e711F5d64550BDA": "Alex TESTNET"
 	},
+	"10": {
+		"0xa2D6193763A9B327Db7c74C766713927745f2a4c": "Optimism Protocol Management",
+		"0x0a806a225Bd19321Ea9e9CCc6782381d1c50a8F6": "Jeff",
+		"0xe5DD2E4B4B82a25c11535872d16F1ec95C9A3C48": "Jason",
+		"0xa198FA5db682a2A828A90b42D3Cd938DAcc01ADE": "Vitto",
+		"0x9b8FF2eAEC61d225D5EE76AeaDa79980ad0C2A8c": "Angello",
+		"0x05439df4FdE744533f006815d79418c8f9C18c24": "Alexander",
+		"0x3a6E8E08F18d48d7057d5930Efe569870bD8D699": "Jeremy",
+		"0x92d10327bb9b577704fC7Fd632a680E889b67827": "Eoin"
+	},
 	"137": {
 		"0xCD2Ec32814f28622533ffcc9131F0D7B2c2CF038": "Polygon Protocol Management",
 		"0x0a806a225Bd19321Ea9e9CCc6782381d1c50a8F6": "Jeff",
@@ -216,8 +243,8 @@ localStorage.setItem('SAFE_v2__addressBook', JSON.stringify({
 		"0x3a6E8E08F18d48d7057d5930Efe569870bD8D699": "Jeremy",
 		"0x92d10327bb9b577704fC7Fd632a680E889b67827": "Eoin"
 	},
-	"42161": {
-		"0x360D1B8c803374aa64E6efc8CFb069993aDF7F11": "Arbitrum Protocol Management",
+	"56": {
+		"0x38F8e3aF2F385B871011CDdFE16099e64846C420": "BSC Protocol Management",
 		"0x0a806a225Bd19321Ea9e9CCc6782381d1c50a8F6": "Jeff",
 		"0xe5DD2E4B4B82a25c11535872d16F1ec95C9A3C48": "Jason",
 		"0xa198FA5db682a2A828A90b42D3Cd938DAcc01ADE": "Vitto",
@@ -226,8 +253,8 @@ localStorage.setItem('SAFE_v2__addressBook', JSON.stringify({
 		"0x3a6E8E08F18d48d7057d5930Efe569870bD8D699": "Jeremy",
 		"0x92d10327bb9b577704fC7Fd632a680E889b67827": "Eoin"
 	},
-	"56": {
-		"0x38F8e3aF2F385B871011CDdFE16099e64846C420": "BSC Protocol Management",
+	"42161": {
+		"0x360D1B8c803374aa64E6efc8CFb069993aDF7F11": "Arbitrum Protocol Management",
 		"0x0a806a225Bd19321Ea9e9CCc6782381d1c50a8F6": "Jeff",
 		"0xe5DD2E4B4B82a25c11535872d16F1ec95C9A3C48": "Jason",
 		"0xa198FA5db682a2A828A90b42D3Cd938DAcc01ADE": "Vitto",
